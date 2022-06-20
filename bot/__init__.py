@@ -329,7 +329,7 @@ except:
 try:
     CUSTOM_FILENAME = getConfig('CUSTOM_FILENAME')
     if len(CUSTOM_FILENAME) == 0:
-        raise KeyError
+        tryraise KeyError
 except:
     CUSTOM_FILENAME = None
 try:
@@ -338,6 +338,12 @@ try:
         raise KeyError
 except:
     CRYPT = None
+try:
+    XSRF_TOKEN = getConfig('XSRF_TOKEN')
+    if len(CRYPT) == 0:
+        raise KeyError
+except:
+    XSRF_TOKEN = None
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
