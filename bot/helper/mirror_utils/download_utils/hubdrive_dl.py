@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 
 url = ""  # hubdrive url
 
-crypt = "" # crypt cookie
+crypt = "UDRybDlJTkVZZU04UDdJeHBnaWhtODdTbytySmJqR29LY1QxNGF6QTZ3cz0%3D" # crypt cookie
 
 '''
 NOTE: [UNSTABLE] Needs more exception handling -_-
