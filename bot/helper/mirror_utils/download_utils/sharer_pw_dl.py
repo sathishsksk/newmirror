@@ -4,8 +4,8 @@ from lxml import etree
 
 url = "" # file url
 
-XSRF_TOKEN = "" # XSRF-TOKEN cookie
-laravel_session = "" # laravel_session cookie
+XSRF_TOKEN = "eyJpdiI6InhaN3NDT3pqbHRsc3J1XC84cFd0YnJRPT0iLCJ2YWx1ZSI6Im1ra3BUQVwvOGVBZGt1YXFUdVdORXNTXC9mWkY0SnB4cFNCY3F5Unc4ak1nV3lIRGtCZ21WNVRYZXRWV2lVQnRCVCIsIm1hYyI6IjQzMzFhYTA2NjMxYjc1MzhmMGM0ZTkxYWViMmFmMGM5Y2JlM2M5MDNkNzExNmE1YTNjNTExZmUxN2NjMWQwYzgifQ%3D%3D" # XSRF-TOKEN cookie
+laravel_session = "eyJpdiI6IlZBUzdqY05EdVwvWW5WalVOdnFNZFpBPT0iLCJ2YWx1ZSI6Ik9XcDQwcjVcLzB2QzdXM2hBVGgwYzI5aVhkbnp5amNWdkRyd2paZTFrYjBcLzNacHhCZWFTeXZTRHUzXC93Z3ZyQjgiLCJtYWMiOiIxYTk4ZTNlMTc3NzJhNzMxZmIxYTA5OWJiNzU0MmJiYzI2ZTI4MzA3OWMzMjY1ZDE2YzM4ZWRiZDczOGZkMjI1In0%3D" # laravel_session cookie
 
 '''
 404: Exception Handling Not Found :(
