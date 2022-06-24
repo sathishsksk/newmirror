@@ -53,7 +53,7 @@ def stats(update, context):
             f'<b>├  🔼 Total Upload : {sent}</b>\n' \
             f'<b>├  🔽 Total Download : {recv}</b>\n' \
             f'<b>├  🖥️ CPU : {cpuUsage}%</b>\n' \
-            f'<b>├  🎮 RAM : {memory}%</b>\n' \
+            f'<b>├  🎮 RAM : {mem_p}%</b>\n' \
             f'<b>├  💽 DISK : {disk}%</b>\n' \
             f'<b>│</b>\n' \
             f'<b>╰──「 🚸 @sk_mass_king 🚸 」</b>'
