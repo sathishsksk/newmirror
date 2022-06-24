@@ -339,11 +339,11 @@ try:
 except:
     CRYPT = None
 try:
-    XSRF_TOKEN = getConfig('XSRF_TOKEN')
-    if len(CRYPT) == 0:
+    DRIVEFIRE_CRYPT = getConfig('DRIVEFIRE_CRYPT')
+    if len(DRIVEFIRE_CRYPT) == 0:
         raise KeyError
 except:
-    XSRF_TOKEN = None
+    DRIVEFIRE_CRYPT = None
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
