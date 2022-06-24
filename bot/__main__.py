@@ -105,15 +105,11 @@ help_string_telegraph = f'''<br>
 <br><br>
 <b>/{BotCommands.ZipMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the file/folder compressed with zip extension
 <br><br>
-<b>/{BotCommands.TarMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the file/folder compressed with zip extension
-<br><br>
 <b>/{BotCommands.UnzipMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the file/folder extracted from any archive extension
 <br><br>
 <b>/{BotCommands.QbMirrorCommand}</b> [magnet_link][torrent_file][torrent_file_url]: Start Mirroring using qBittorrent, Use <b>/{BotCommands.QbMirrorCommand} s</b> to select files before downloading
 <br><br>
 <b>/{BotCommands.QbZipMirrorCommand}</b> [magnet_link][torrent_file][torrent_file_url]: Start mirroring using qBittorrent and upload the file/folder compressed with zip extension
-<br><br>
-<b>/{BotCommands.QbTarMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the file/folder compressed with zip extension
 <br><br>
 <b>/{BotCommands.QbUnzipMirrorCommand}</b> [magnet_link][torrent_file][torrent_file_url]: Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension
 <br><br>
@@ -198,11 +194,9 @@ botcmds = [
 
         (f'{BotCommands.MirrorCommand}', 'Mirror'),
         (f'{BotCommands.ZipMirrorCommand}','Mirror and upload as zip'),
-        (f'{BotCommands.TarMirrorCommand}','Mirror and upload as Tar'),
         (f'{BotCommands.UnzipMirrorCommand}','Mirror and extract files'),
         (f'{BotCommands.QbMirrorCommand}','Mirror torrent using qBittorrent'),
         (f'{BotCommands.QbZipMirrorCommand}','Mirror torrent and upload as zip using qb'),
-        (f'{BotCommands.QbTarMirrorCommand}','Mirror and upload as Tar'),
         (f'{BotCommands.QbUnzipMirrorCommand}','Mirror torrent and extract files using qb'),
         (f'{BotCommands.WatchCommand}','Mirror yt-dlp supported link'),
         (f'{BotCommands.ZipWatchCommand}','Mirror yt-dlp supported link as zip'),
