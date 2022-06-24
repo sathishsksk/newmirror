@@ -7,13 +7,13 @@ url = "" # file url
 
 # Website User Account (NOT GOOGLE ACCOUNT) ----
 account = {
-    'email': '', 
-    'passwd': ''
+    'email': 'sk550387@gmail.com', 
+    'passwd': '8489177893'
 }
 
 # Destination config ----
-SHARED_DRIVE_ID = '' # team drive ID (optional) (for MyDrive, keep this field empty)
-FOLDER_ID = '' # drive folder ID (optional)
+SHARED_DRIVE_ID = '0AP10GGZgV-tEUk9PVA' # team drive ID (optional) (for MyDrive, keep this field empty)
+FOLDER_ID = '1fJ3Qzs4cjhv3-1Uafvxnuaj76OoPF9lt' # drive folder ID (optional)
 
 '''
 
