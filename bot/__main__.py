@@ -57,7 +57,7 @@ def stats(update, context):
             f'<b>├  💽 DISK : {disk}%</b>\n' \
             f'<b>│</b>\n' \
             f'<b>╰──「 🚸 @sk_mass_king 🚸 」</b>'
-    update.effective_message.reply_photo(IMAGE_URL, stats, parse_mode=ParseMode.HTML)
+    sendMessage(stats, context.bot, update.message)
 
 
 def start(update, context):
