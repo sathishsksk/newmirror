@@ -63,7 +63,7 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     buttons.buildbutton("⚡Index⚡", "https://sathishsk.skmassking.workers.dev/0:/")
-    buttons.buildbutton("🌠Owner🌠", "https://t.me/sk_mass_king")
+    buttons.buildbutton("🔥Owner🔥", "https://t.me/sk_mass_king")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
